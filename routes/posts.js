@@ -24,7 +24,7 @@ router.get('/posts', (req, res) => {
 
 })
 
-
+//A SINTAXE DO INSERT SQL É ASPAS
 
 router.get('/posts/new', (req, res) => {
     ibmdb.open("DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-08.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=cpp62871;PWD=11zj85gv8x9lx@2g;", function (err,conn)  {

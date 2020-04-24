@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios'
-
+import HeaderBlog from './components/HeaderBlog';
 class App extends Component {
 
   constructor(props){
@@ -24,6 +24,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
+      <HeaderBlog />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
